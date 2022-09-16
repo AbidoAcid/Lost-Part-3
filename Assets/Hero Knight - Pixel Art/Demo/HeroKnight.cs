@@ -212,9 +212,7 @@ public class HeroKnight : MonoBehaviour {
     private void Attack()
     {
         m_currentAttack++;
-        string P_state = "Attack";
-        gameObject.tag = "Attack";
-        Debug.Log(P_state);
+        
 
         // Loop back to one after third attack
         if (m_currentAttack > 3)
